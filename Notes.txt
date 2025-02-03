@@ -1,0 +1,17 @@
+lecture - 1 :- 
+
+    1) what is spring boot ?
+    ==> - Spring boot is a framework for building application in the java programming language
+          - Spring Boot makes it easy to create standalone , production grade spring based application that you can just run.
+
+    2)  why use spring boot over spring ?
+   ==> - the core spring framework already reduces boilerplate code and provides a lot of helpful features for java applications.
+          - However , Spring Boot takes this convenience to the next level by focusing specially on reducing the effort required to set up and configure a spring application.
+          - while Spring does simplify many tasks like creating web applications, working with databases , managing transactions and more , but setting up a spring project can still involve quite a bit of manual configuration
+     
+* Spring Boot Provides Auto-Configuration , Standalone Application    
+
+* When we create an api we need to manually set up the spring application context in the main method then it become easier when we use the @SpringBootApplication Annotation on the main class . this Single annotation replaces the need for setting up a manual Spring ApplicationContext(Class).      
+
+3) Why we use @SpringBootApplication ?
+==> the @SpringBootApplication annotation alone brings in a lot pre-configured feature , including automatic component scanning and embedded server configuration , which would have required more steps in a traditional spring setup.         
