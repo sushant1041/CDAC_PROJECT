@@ -9,6 +9,7 @@ This is a Spring Boot-based Clinic Management System that helps manage patients 
 ✅ Database Integration using MySQL
 ✅ Spring Boot + JPA for database operations
 
+
 📌 Technologies Used
 Spring Boot – Backend framework
 Spring Data JPA – ORM for database
@@ -16,6 +17,8 @@ MySQL – Database for storing patients & appointments
 Spring Security (Basic Authentication) – For login
 Lombok – Reduces boilerplate code
 Postman – API testing tool
+
+
 📌 Explanation of Key Components
 1️⃣ Controllers (API Endpoints)
 AppointmentController – Manages appointments (CRUD operations)
@@ -32,6 +35,8 @@ AppointmentRepository – Queries for appointment data
 5️⃣ Services (Business Logic)
 PatientService – Handles patient operations
 AppointmentService – Handles appointment operations
+
+
 📌 How the Project Works?
 1️⃣ Patient Registration: Users register with their name, email, password
 2️⃣ Login Authentication: Users log in using email & password
